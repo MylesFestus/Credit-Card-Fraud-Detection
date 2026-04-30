@@ -61,7 +61,6 @@ imbalanced datasets like fraud detection.
 - Target: `Class` — 1 = fraud, 0 = legitimate
 
 Download `creditcard.csv` and place it in the project root before running.
-
 ---
 
 ## Setup
@@ -81,7 +80,6 @@ python fraud_detection_models.py
 # Full pipeline with cross-validation and threshold tuning (recommended)
 python fraud_detection_cv_tuned.py
 ```
-
 ---
 
 ## Pipeline overview
@@ -123,7 +121,6 @@ composite = AUC-PR × 0.40 + F2 × 0.30 + Recall × 0.20 + Precision × 0.10
 
 The weights reflect fraud detection priorities: catching fraud (recall) matters
 most, but precision is needed to keep false alarms manageable for analysts.
-
 ---
 
 ## Key concepts
