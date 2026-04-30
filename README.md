@@ -28,7 +28,6 @@ imbalanced datasets like fraud detection.
 - Only model with a meaningful F1 score (0.81 vs ≤0.33 for all others)
 - Highest AUC-PR (0.88) — best overall precision-recall tradeoff
 - 5× fewer false positives than XGBoost, 100× fewer than Logistic Regression
-
 ---
 
 ## Project structure
@@ -49,7 +48,6 @@ imbalanced datasets like fraud detection.
     ├── fraud_leaderboard.png       # Composite score ranked chart
     └── fraud_feature_importance.png# Top 15 features from Random Forest
 ```
-
 ---
 
 ## Dataset
@@ -147,7 +145,6 @@ Applying SMOTE before splitting introduces synthetic samples derived from
 the validation set into the training data — a form of data leakage that
 inflates validation scores. Correct practice is to fit SMOTE only on each
 fold's training portion.
-
 ---
 
 ## Improving results further
