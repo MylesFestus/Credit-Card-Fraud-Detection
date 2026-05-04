@@ -160,7 +160,6 @@ fold's training portion.
   and optimise for minimum expected loss rather than F2
 
 ---
-
 ## Interpretation notes
 
 A false positive (FP) means a legitimate transaction is blocked — customer
@@ -168,10 +167,8 @@ friction and potential churn. A false negative (FN) means fraud goes through
 — direct financial loss and reputational damage. The right FP/FN tradeoff
 depends on your business context; adjust the F-beta `beta` parameter and
 composite score weights accordingly.
-
 ---
 
 ## License
-
 This project is for educational purposes. The dataset is subject to the
 [Kaggle terms of use](https://www.kaggle.com/terms).
